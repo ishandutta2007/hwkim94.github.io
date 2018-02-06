@@ -1,9 +1,9 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
-disqus_shortname: stackproblems
+title: Posting by Hyun
+description: Data Science & Algorith with Computer Science
+author: Kim Hynwoo
+github: https://github.com/hwkim94
+about: 공부한 것을 정리하고 공유하는 블로그! 
+disqus_shortname: Posting
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
 
@@ -17,19 +17,9 @@ collections:
 
 social:
     - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.facebook.com/sky.hwkim"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
-
-share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
+      link: "https://github.com/hwkim94"
 
 urls:
     - text: About Me
@@ -39,7 +29,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://hwkim94.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
