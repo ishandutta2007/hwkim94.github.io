@@ -28,6 +28,8 @@ urls:
       url: /projects/
     - text: XML Feed
       url: /feed.xml
+    - text: Category
+      url: /category/
 
 url: "https://hwkim94.github.io"
 baseurl: ""
