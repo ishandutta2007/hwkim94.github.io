@@ -2,11 +2,11 @@
 layout: post
 title:  "Test"
 date:   2018-02-10 05:56:00 +0700
-categories: [ruby]
+categories: [test]
 ---
 
 이 포스트는 블로그 실험용 포스트입니다. `강조` 
 
-{% highlight ruby %}
+{% highlight python %}
 code here
 {% endhighlight %}
