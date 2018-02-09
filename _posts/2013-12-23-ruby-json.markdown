@@ -10,3 +10,12 @@ categories: [test]
 {% highlight python %}
 code here
 {% endhighlight %}
+
+```python
+import module
+
+def test() :
+  #code here
+  pass
+ 
+ test()
