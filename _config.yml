@@ -27,7 +27,7 @@ urls:
     - text: My Projects
       url: /projects/
     - text: Category
-      url: /category/others/
+      url: /category/others
 
 url: "https://hwkim94.github.io"
 baseurl: ""
