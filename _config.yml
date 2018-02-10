@@ -24,10 +24,10 @@ social:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
     - text: Category
       url: /category/others
+    - text: Gallery
+      url: /projects/
 
 url: "https://hwkim94.github.io"
 baseurl: ""
