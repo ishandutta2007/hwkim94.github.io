@@ -22,10 +22,10 @@ social:
       link: "https://github.com/hwkim94"
 
 urls:
-    - text: About Me
-      url: /about/
     - text: Category
       url: /category/others
+    - text: About Me
+      url: /about/
 #    - text: Gallery
 #      url: /projects/
 
