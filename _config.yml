@@ -26,8 +26,6 @@ urls:
       url: /category/others
     - text: About Me
       url: /about/
-#    - text: Gallery
-#      url: /projects/
 
 url: "https://hwkim94.github.io"
 baseurl: ""
