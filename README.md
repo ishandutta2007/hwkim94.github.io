@@ -110,6 +110,21 @@
     <td><a href="https://hwkim94.github.io/deeplearning/rnn/lstm/attention/nlp/paperreview/2018/02/23/BiDAF1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1611.01603">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>15</td>
+    <td>Seq2Seq[1] Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation(2014)</td>
+    <td><a href="https://github.com/hwkim94/hwkim94.github.io/wiki/Learning-Phrase-Representations-using-RNN-Encoder%E2%80%93Decoder-for-Statistical-Machine-Translation(2014)">review</a></td>
+    <td><a href="https://arxiv.org/abs/1406.1078">paper</a></td>
+  </tr>
+
+  <tr>
+    <td>16</td>
+    <td>Seq2Seq[2] Sequence to Sequence Learning with Neural Networks(2014)</td>
+    <td><a href="https://github.com/hwkim94/hwkim94.github.io/wiki/Sequence-to-Sequence-Learning-with-Neural-Networks(2014)">review</a></td>
+    <td><a href="https://arxiv.org/abs/1409.3215">paper</a></td>
+  </tr>
+  
 </table>
 
 
