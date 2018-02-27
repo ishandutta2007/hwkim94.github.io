@@ -114,7 +114,7 @@
   <tr>
     <td>15</td>
     <td>Seq2Seq[1] Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation(2014)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/rnn/seq2seq/nlp/paperreview/2018/02/24/seq2seq1.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/rnn/lstm/seq2seq/nlp/paperreview/2018/02/24/seq2seq1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1406.1078">paper</a></td>
   </tr>
 
