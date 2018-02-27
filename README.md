@@ -141,7 +141,7 @@
   
   <tr>
     <td>19</td>
-    <td>charLSTM[2] Character Word LSTM Language Models(2017)</td>
+    <td>char-word LSTM[1] Character Word LSTM Language Models(2017)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/rnn/lstm/charcnn/nlp/paperreview/2018/02/28/charLSTM2.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1704.02813">paper</a></td>
   </tr>
