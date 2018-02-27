@@ -126,10 +126,17 @@
   </tr>
   
   <tr>
-    <td>16</td>
+    <td>17</td>
     <td>GRU[1] Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling(2014)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/rnn/gru/paperreview/2018/02/27/GRU1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1412.3555">paper</a></td>
+  </tr>
+  
+  <tr>
+    <td>18</td>
+    <td>char-wordCNN[1] Character Word LSTM Language Models(2017)</td>
+    <td><a href="https://github.com/hwkim94/hwkim94.github.io/wiki/Character-Word-LSTM-Language-Models(2017)">review</a></td>
+    <td><a href="https://arxiv.org/abs/1704.02813">paper</a></td>
   </tr>
   
 </table>
