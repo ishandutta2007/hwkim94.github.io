@@ -125,6 +125,13 @@
     <td><a href="https://arxiv.org/abs/1409.3215">paper</a></td>
   </tr>
   
+  <tr>
+    <td>16</td>
+    <td>GRU[1] Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling(2014)</td>
+    <td><a href="https://github.com/hwkim94/hwkim94.github.io/wiki/Empirical-Evaluation-of-Gated-Recurrent-Neural-Networks-on-Sequence-Modeling(2014)">review</a></td>
+    <td><a href="https://arxiv.org/abs/1412.3555">paper</a></td>
+  </tr>
+  
 </table>
 
 
