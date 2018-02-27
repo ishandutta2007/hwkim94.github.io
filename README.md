@@ -134,7 +134,7 @@
   
   <tr>
     <td>18</td>
-    <td>chaLSTM[1] Character Word LSTM Language Models(2016)</td>
+    <td>chaLSTM[1] Character Aware Neural Language Model(2016)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/rnn/lstm/charcnn/nlp/paperreview/2018/02/27/charLSTM1.html">review</a></td>
     <td><a href=https://arxiv.org/abs/1508.06615">paper</a></td>
   </tr>
