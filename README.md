@@ -135,7 +135,7 @@
   <tr>
     <td>18</td>
     <td>char-wordCNN[1] Character Word LSTM Language Models(2017)</td>
-    <td><a href="https://github.com/hwkim94/hwkim94.github.io/wiki/Character-Word-LSTM-Language-Models(2017)">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/charcnn/wordcnn/nlp/paperreview/2018/02/27/char-wordCNN1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1704.02813">paper</a></td>
   </tr>
   
