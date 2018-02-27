@@ -134,8 +134,15 @@
   
   <tr>
     <td>18</td>
-    <td>char-word CNN[1] Character Word LSTM Language Models(2017)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/cnn/charcnn/wordcnn/nlp/paperreview/2018/02/27/char-wordCNN1.html">review</a></td>
+    <td>chaLSTM[1] Character Word LSTM Language Models(2016)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/rnn/lstm/charcnn/nlp/paperreview/2018/02/27/charLSTM1.html">review</a></td>
+    <td><a href=https://arxiv.org/abs/1508.06615">paper</a></td>
+  </tr>
+  
+  <tr>
+    <td>19</td>
+    <td>charLSTM[2] Character Word LSTM Language Models(2017)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/rnn/lstm/charcnn/nlp/paperreview/2018/02/28/charLSTM2.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1704.02813">paper</a></td>
   </tr>
   
