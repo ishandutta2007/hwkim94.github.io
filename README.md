@@ -146,6 +146,13 @@
     <td><a href="https://arxiv.org/abs/1704.02813">paper</a></td>
   </tr>
   
+  <tr>
+    <td>20</td>
+    <td>BLSTM-CNN-CRF[1] Character Word LSTM Language Models(2016)</td>
+    <td><a href="https://github.com/hwkim94/hwkim94.github.io/wiki/End-to-End-Sequence-Labeling-via-Bi-directional-LSTM-CNNs-CRF(2016)">review</a></td>
+    <td><a href="https://arxiv.org/abs/1603.01354">paper</a></td>
+  </tr>
+  
 </table>
 
 
