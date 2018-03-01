@@ -159,6 +159,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/rnn/lstm/seq2seq/nlp/paperreview/2018/03/01/seq2seq3.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1603.06155">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>22</td>
+    <td>SRU[1] Training RNNs as Fast as CNNs(2017)</td>
+    <td><a href="https://github.com/hwkim94/hwkim94.github.io/wiki/Training-RNNs-as-Fast-as-CNNs(2017)">review</a></td>
+    <td><a href="https://arxiv.org/abs/1709.02755">paper</a></td>
+  </tr>
 </table>
 
 
