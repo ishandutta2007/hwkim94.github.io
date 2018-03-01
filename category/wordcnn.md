@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: wordcnn
-title: Wordcnn
+title: WordCNN
 permalink: /category/wordcnn
 ---
