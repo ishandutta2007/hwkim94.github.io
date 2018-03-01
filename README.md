@@ -149,10 +149,16 @@
   <tr>
     <td>20</td>
     <td>BLSTM-CNN-CRF[1] Character Word LSTM Language Models(2016)</td>
-    <td><a https://hwkim94.github.io/deeplearning/rnn/cnn/lstm/charcnn/nlp/paperreview/2018/03/01/BLSTM-CNN-CRF1.html">review</a></td>
+    <td><a "https://hwkim94.github.io/deeplearning/rnn/cnn/lstm/charcnn/nlp/paperreview/2018/03/01/BLSTM-CNN-CRF1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1603.01354">paper</a></td>
   </tr>
-  
+      
+  <tr>
+    <td>21</td>
+    <td>Seq2Seq[3] A Persona Based Neural Conversation Model(2016)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/rnn/lstm/seq2seq/nlp/paperreview/2018/03/01/seq2seq3.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1603.06155">paper</a></td>
+  </tr>
 </table>
 
 
