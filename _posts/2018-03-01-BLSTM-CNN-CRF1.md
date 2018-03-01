@@ -63,7 +63,7 @@ LSTM 2개를 사용하여 seqeuence를 forward, backward 방향으로 각각 넣
 ### 4.1.1 Word Embedding
 - 100dim-GloVe, 300dim-Word2Vec, 50dim-Senna에 대해서 실험
 ### 4.1.2 Char Embedding
-- 30dim-Uniformed sampled vector from range &&[-\sqrt\frac{3}{dim},+\sqrt\frac{3}{dim}]&&
+- 30dim-Uniformed sampled vector from range $$[-\sqrt\frac{3}{dim},+\sqrt\frac{3}{dim}]$$
 ### 4.1.3 Weight Matrices and Bias Vectors
 - Uniformly sampled from range $$[-\sqrt\frac{3}{dim},+\sqrt\frac{3}{dim}]$$
 
