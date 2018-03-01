@@ -62,20 +62,26 @@ LSTM 2개를 사용하여 seqeuence를 forward, backward 방향으로 각각 넣
 # 4.1 Parameter Initialization
 ### 4.1.1 Word Embedding
 - 100dim-GloVe, 300dim-Word2Vec, 50dim-Senna에 대해서 실험
+
 ### 4.1.2 Char Embedding
 - 30dim-Uniformed sampled vector from range $$[-\sqrt\frac{3}{dim},+\sqrt\frac{3}{dim}]$$
+
 ### 4.1.3 Weight Matrices and Bias Vectors
 - Uniformly sampled from range $$[-\sqrt\frac{3}{dim},+\sqrt\frac{3}{dim}]$$
 
 # 4.2 Optimization Algorithm
 - SGD
 - gradient norm을 5보다 작도록 유지
+
 ### 4.2.1 Early Stopping
 - 가장 성능이 좋은 parameter가 나오면 학습을 중단
+
 ### 4.2.2 Fine Tuning
 - gradient를 update하는 과정에서 embedding도 함께 update
+
 ### 4.2.3 Dropout Training
 - charCNN과, BLSTM에 dropout 적용
+
 # 4.3 Tuning Hyper-Parameter
 ![params](https://files.slack.com/files-pri/T1J7SCHU7-F9G4X1U65/param.png?pub_secret=6e81f82edd)
 
