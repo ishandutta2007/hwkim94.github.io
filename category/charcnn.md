@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: charcnn
-title: Charcnn
+title: CharCNN
 permalink: /category/charcnn
 ---
