@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: lstm
-title: Lstm
+title: LSTM
 permalink: /category/lstm
 ---
