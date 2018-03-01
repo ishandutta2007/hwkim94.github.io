@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: resnet
-title: Resnet
+title: ResNet
 permalink: /category/resnet
 ---
