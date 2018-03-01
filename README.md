@@ -163,14 +163,14 @@
   <tr>
     <td>22</td>
     <td>QRNN[1] Quasi Recurrent Neural Networks(2016)</td>
-    <td><a href="https://github.com/hwkim94/hwkim94.github.io/wiki/Quasi-Recurrent-Neural-Networks(2016)">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/rnn/qrnn/paperreview/2018/03/01/qrnn1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1611.01576">paper</a></td>
   </tr>
   
   <tr>
     <td>23</td>
     <td>SRU[1] Training RNNs as Fast as CNNs(2017)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/rnn/sru/paperreview/2018/03/31/SRU1.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/rnn/sru/paperreview/2018/03/02/SRU1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1709.02755">paper</a></td>
   </tr>
 </table>
