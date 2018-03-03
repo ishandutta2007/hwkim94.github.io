@@ -173,6 +173,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/rnn/sru/paperreview/2018/03/03/SRU1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1709.02755">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>24</td>
+    <td>ByteNet[1] Neural Machine Translation in Linear Time(2017)</td>
+    <td><a href="https://github.com/hwkim94/hwkim94.github.io/wiki/Neural-Machine-Translation-in-Linear-Time(2017)">review</a></td>
+    <td><a href="https://arxiv.org/abs/1610.10099">paper</a></td>
+  </tr>
 </table>
 
 
