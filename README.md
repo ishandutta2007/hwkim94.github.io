@@ -187,6 +187,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/slicenet/paperreview/2018/03/05/sliceNet.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1706.03059">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>26</td>
+    <td>Inception[1] Going Deeper with Convolutions(2014)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/inception/paperreview/2018/03/12/Inception1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1409.4842">paper</a></td>
+  </tr>
 </table>
 
 
