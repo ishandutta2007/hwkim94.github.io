@@ -194,6 +194,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/inception/paperreview/2018/03/12/Inception1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1409.4842">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>27</td>
+    <td>Inception[2] Rethinking the Inception Architecture for Computer Vision(2015)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/inception/paperreview/2018/03/13/Inception2.html">review</a></td>
+    <td><a href=https://arxiv.org/abs/1512.00567">paper</a></td>
+  </tr>
 </table>
 
 
