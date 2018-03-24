@@ -208,6 +208,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/inception/paperreview/2018/03/17/Inception3.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1602.07261">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>29</td>
+    <td>Xception[1] Xception: Deep Learning with Depthwise Separable Convolutions(2017)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/inception/xception/paperreview/2018/03/25/Xception1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1610.02357">paper</a></td>
+  </tr>
 </table>
 
 
