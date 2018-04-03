@@ -183,37 +183,37 @@
   
   <tr>
     <td>25</td>
-    <td>sliceNet[1] Depthwise Separable Convolutions for Neural Machine Translation(2017)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/slicenet/paperreview/2018/03/05/sliceNet.html">review</a></td>
-    <td><a href="https://arxiv.org/abs/1706.03059">paper</a></td>
-  </tr>
-  
-  <tr>
-    <td>26</td>
     <td>Inception[1] Going Deeper with Convolutions(2014)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/inception/paperreview/2018/03/12/Inception1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1409.4842">paper</a></td>
   </tr>
   
   <tr>
-    <td>27</td>
+    <td>26</td>
     <td>Inception[2] Rethinking the Inception Architecture for Computer Vision(2015)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/inception/paperreview/2018/03/13/Inception2.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1512.00567">paper</a></td>
   </tr>
       
   <tr>
-    <td>28</td>
+    <td>27</td>
     <td>Inception[3] Inception v4, Inception ResNet and the Impact of Residual Connections on Learning(2016)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/inception/paperreview/2018/03/17/Inception3.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1602.07261">paper</a></td>
   </tr>
   
   <tr>
-    <td>29</td>
+    <td>28</td>
     <td>Xception[1] Xception: Deep Learning with Depthwise Separable Convolutions(2017)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/inception/xception/paperreview/2018/03/25/Xception1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1610.02357">paper</a></td>
+  </tr>
+  
+  <tr>
+    <td>29</td>
+    <td>sliceNet[1] Depthwise Separable Convolutions for Neural Machine Translation(2017)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/slicenet/paperreview/2018/03/05/sliceNet.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1706.03059">paper</a></td>
   </tr>
 </table>
 
