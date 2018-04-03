@@ -212,8 +212,15 @@
   <tr>
     <td>29</td>
     <td>sliceNet[1] Depthwise Separable Convolutions for Neural Machine Translation(2017)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/slicenet/paperreview/2018/03/05/sliceNet.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/slicenet/paperreview/2018/03/05/sliceNet1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1706.03059">paper</a></td>
+  </tr>
+  
+  <tr>
+    <td>30</td>
+    <td>denseNet[1] Densely Connected Convolutional Networks(2016)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/resnet/densenet/paperreview/2018/04/08/denseNet1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1608.06993">paper</a></td>
   </tr>
 </table>
 
