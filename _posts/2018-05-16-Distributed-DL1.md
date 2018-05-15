@@ -20,7 +20,7 @@ categories: [distributed-computing, deeplearning]
 - data의 정보가 각 layer에 weight의 형태로 분산되어있고, 이 정보들을 합쳐서 원하는 목적을 이루는 형태의 모델
 
 # 2.2 Need for Parallel and Distributed Algorithms in Deep Learning
-- DL의 경우 parameter가 너무 많아지므로 학습시키는 시간이 너무 오래거림
+- DL의 경우 parameter가 너무 많아지므로 학습시키는 시간이 너무 오래 걸림
     - 따라서, 병렬처리 및 분산처리가 필수적 
 
 -----
