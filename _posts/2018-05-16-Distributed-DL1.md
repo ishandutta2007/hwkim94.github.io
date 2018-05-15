@@ -60,7 +60,7 @@ categories: [distributed-computing, deeplearning]
     - $$v_2$$ = $$(image_{1,2}, image_{1,3}, image_{2,2}, image_{2,3})$$ ...
     - $$k_1$$ = $$(k_{1,1}, k_{1,2}, k_{2,1}, k_{2,2})$$
     - $$V$$ = $$\begin{bmatrix} v_1\\ v_2\\ v_3\\ \cdots \end{bmatrix}$$
-    - $$K$$ = $\[ k_{1} \mid k_{2} \mid k_{3} \mid \cdots \]$$
+    - $$K$$ = $$\[ k_{1} \mid k_{2} \mid k_{3} \mid \cdots \]$$
     - $$convoluion(image)$$ = $$VK$$
 
 # 4.2 Results
