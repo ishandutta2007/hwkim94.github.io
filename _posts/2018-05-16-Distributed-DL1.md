@@ -55,12 +55,12 @@ categories: [distributed-computing, deeplearning]
 
 - CNN의 한 layer에서 사용되는 filter가 많으므로 filter도 matrix의 형태가 됨
 - 최종적으로 이 matrix들을 multiplication해주면 한 layer에서의 convolution 결과가 나옴
-- ex) kernal size = $$2x2$$이고, stride=1 인 convolution
+- ex) kernal size = $$2 \times 2$$이고, stride=1 인 convolution
     - $$v_1$$ = $$(image_{1,1}, image_{1,2}, image_{2,1}, image_{2,2})$$
     - $$v_2$$ = $$(image_{1,2}, image_{1,3}, image_{2,2}, image_{2,3})$$ ...
     - $$k_1$$ = $$(k_{1,1}, k_{1,2}, k_{2,1}, k_{2,2})$$
     - $$V$$ = $$\begin{bmatrix} v_1\\ v_2\\ v_3\\ \cdots \end{bmatrix}$$
-    - $$K$$ = $$\begin{bmatrix} k_1 & k_2 & k_3 & \cdots \end{bmatrix}$$
+    - $$K$$ = $$\begin{bmatrix} k_{1}& k_{2}& k_{3}& \cdots \end{bmatrix}$$
     - $$convoluion(image)$$ = $$VK$$
 
 # 4.2 Results
@@ -77,15 +77,15 @@ categories: [distributed-computing, deeplearning]
 ## 5. Stochastic Gradient Descent
 - Gradient Descent
     - $$w$$ = $$w - \alpha \bigtriangledown_{w} L_{total}$$
-    - $$L_{total}$$ = $$\fraction{1}{n} \sum{L_i}$$, 즉, 모든 data의 loss의 합
+    - $$L_{total}$$ = $$\frac{1}{n} \sum{L_i}$$, 즉, 모든 data의 loss의 합
     - $$L_i$$ = $$-f_{y_i} + log \sum e^{f_i}$$, data의 loss는 logistic loss function
     - 즉, gradient descent는 모든 data의 loss의 평균을 구하여 1번만 descent하는 방식
     - 따라서, 최적화하기 위해서 엄청 많은 descent가 필요하므로 비효율적
 
 - Stochastic Gradient Descent
     - $$w$$ = $$w - \alpha \bigtriangledown_{w} L_{mini batch}$$
-    - $$L_{mini batch}$$ = $$\fraction{1}{m} \sum{L_i}$$, 즉, mini batch의 loss의 합
-    - SGD는 각 mini batch의 loss의 평균만을 이용하요 gradient를 계산하여, weight를 update
+    - $$L_{mini batch}$$ = $$\frac{1}{m} \sum{L_i}$$, 즉, mini batch의 loss의 합
+    - SGD는 각 mini batch의 loss의 평균만을 이용해 gradient를 계산하여 weight를 update
     - 따라서, batch의 수 만큼 gradient를 update하게 됨
 
 -----
