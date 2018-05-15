@@ -232,9 +232,16 @@
   
   <tr>
     <td>32</td>
-    <td>	Spark[2] Resilient Distributed Datasets: A Fault Tolerant Abstraction for In Memory Cluster Computing(2012)</td>
+    <td>Spark[2] Resilient Distributed Datasets: A Fault Tolerant Abstraction for In Memory Cluster Computing(2012)</td>
     <td><a href="https://hwkim94.github.io/distributed-computing/spark/rdd/2018/05/15/Spark2.html">review</a></td>
     <td><a href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf">paper</a></td>
+  </tr>
+  
+  <tr>
+    <td>33</td>
+    <td>Distributed DL[1] Parallel and Distributed Deep Learning(2016)</td>
+    <td><a href="https://hwkim94.github.io/distributed-computing/deeplearning/2018/05/15/Distributed-DL1.html">review</a></td>
+    <td><a href="https://web.stanford.edu/~rezab/classes/cme323/S16/projects_reports/hedge_usmani.pdf">paper</a></td>
   </tr>
 </table>
 
