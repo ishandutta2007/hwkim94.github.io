@@ -123,7 +123,7 @@ categories: [distributed-computing, deeplearning]
 -----
 
 ## 7. Conclusions
-** cluster of machines to train even modestly sized deep networks significantly faster than a GPU**
+**cluster of machines to train even modestly sized deep networks significantly faster than a GPU**
 
 -----
 
