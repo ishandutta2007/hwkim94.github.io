@@ -102,6 +102,21 @@ categories: [distributed-computing, deeplearning]
     - 각 model replicas에 일정 양의 data를 분배하고, 더 빠르게 data를 학습시키는 replicas에 더 많은 data 분배
     - 따라서, faster model replicas는 slower model replicas보다 더 많은 학습을 진행하게 됨 
     - MapReduce의 backup task와 비슷
+    
+- BFGS
+    - NewtonRaphson Algorithm은 Hessian Matrix의 inverse를 통하여 Newton's method를 반복하며 최적화하는 기법
+    - 하지만, data가 많아진다면 Hessian Matrix의 inverse를 구하는 것은 불가능
+    - 따라서, Hessian Matrix를 근사하여 구하게 됨
+    - $$h_n(d)$$ = $$f(x_n) + d^T g_n + \frac{1}{2} d^T H_n d$$ = n-th quadratic approximation
+    - $$\bigtriangledown h_n(x_{n})$$ = $$g_n$$, $$\bigtriangledown h_n(x_{n-1})$$ = $$g_{n-1}$$
+    - $$\bigtriangledown h_n(x_{n}) - \bigtriangledown h_n(x_{n-1})$$ = $$g_n - g_{n-1}$$
+    - $$H_n (x_n - x_{n-1})$$ = $$g_n - g_{n-1}$$ 를 만족
+    - 즉, $$min(\mid \mid H_{n+1}^{-1} - H_n^{-1} \mid \mid)$$과 $$x_n - x_{n-1}$$ = $$H_{n+1}^{-1}(g_n - g_{n-1})$$를 만족하는 $$H_{n+1}^{-1}$$을 찾아내는 알고리즘
+    - $$g_n$$ = n-th gradient
+    - $$H_n$$ = n-th Hessian Matrix
+
+- L-BFGS
+    - BFGS에서 모든 $$n$$에 대해서 update하지 않고, 가장 최근의 $$m$$개에 대해서만 update하는 것
 
 - DownpourSGD는 높은 frequency, bandwidth parameter synchronization을 요구하지만, Sandblaster L-BFGS는 각 coordinator에 의해 분배된 batch를 학습할 때만 parameter를 가져오고, 계산이 완료된 gradient중 일부분만 server로 보내므로 상대적으로 낮은 frequency, bandwidth parameter synchronization을 요구
 
