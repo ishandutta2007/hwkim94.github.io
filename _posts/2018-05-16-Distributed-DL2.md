@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Distributed DL[1] Parallel and Distributed Deep Learning(2016) - Review"
-date:   2018-05-16 01:30:00 +0900
+title:  "Distributed DL[2] Large Scale Distributed Deep Networks(2012) - Review"
+date:   2018-05-16 15:30:00 +0900
 categories: [distributed-computing, deeplearning]
 ---
 
