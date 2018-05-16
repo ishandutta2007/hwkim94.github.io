@@ -128,5 +128,5 @@ categories: [distributed-computing, deeplearning]
 -----
 
 ## 8. Reference
--[http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf](http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)
+- [http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf](http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)
 - [http://aria42.com/blog/2014/12/understanding-lbfgs](http://aria42.com/blog/2014/12/understanding-lbfgs)
