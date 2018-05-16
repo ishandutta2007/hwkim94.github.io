@@ -243,6 +243,13 @@
     <td><a href="https://hwkim94.github.io/distributed-computing/deeplearning/2018/05/15/Distributed-DL1.html">review</a></td>
     <td><a href="https://web.stanford.edu/~rezab/classes/cme323/S16/projects_reports/hedge_usmani.pdf">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>34</td>
+    <td>Distributed DL[2] Large Scale Distributed Deep Networks(2012)</td>
+    <td><a href="https://hwkim94.github.io/distributed-computing/deeplearning/2018/05/15/Distributed-DL2.html">review</a></td>
+    <td><a href="http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf">paper</a></td>
+  </tr>
 </table>
 
 
