@@ -156,4 +156,4 @@ categories: [distributed-computing, deeplearning]
 ## 8. Reference
 - [https://web.stanford.edu/~rezab/classes/cme323/S16/projects_reports/hedge_usmani.pdf](https://web.stanford.edu/~rezab/classes/cme323/S16/projects_reports/hedge_usmani.pdf)
 - [https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=220512373842&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F](https://m.blog.naver.com/PostView.nhn?blogId=sogangori&logNo=220512373842&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
-- [http://kiss.kstudy.com/thesis/thesis-view.asp?key=3564716](http://kiss.kstudy.
+- [http://kiss.kstudy.com/thesis/thesis-view.asp?key=3564716](http://kiss.kstudy.com/thesis/thesis-view.asp?key=3564716)
