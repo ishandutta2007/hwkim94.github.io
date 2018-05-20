@@ -250,6 +250,14 @@
     <td><a href="https://hwkim94.github.io/distributed-computing/deeplearning/2018/05/16/Distributed-DL2.html">review</a></td>
     <td><a href="http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>35</td>
+    <td>AlexNet[1] ImageNet Classification with Deep Convolutional Neural Networks(2012)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/alexnet/2018/05/20/AlexNet1.html">review</a></td>
+    <td><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">paper</a></td>
+  </tr>
+  
 </table>
 
 
