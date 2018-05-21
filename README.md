@@ -259,10 +259,17 @@
   </tr>
   
   <tr>
-    <td>35</td>
+    <td>36</td>
     <td>Audio Style Transfer[1] Neural Style Transfer for Audio Spectrograms(2018)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/alexnet/2018/05/21/Audio-Style-Transfer1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1801.01589">paper</a></td>
+  </tr>
+  
+  <tr>
+    <td>37</td>
+    <td>Audio Style Transfer[2] Style Transfer for Prosodic Speech(2017)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/2018/05/21/Audio-Style-Transfer2.html">review</a></td>
+    <td><a href="http://web.stanford.edu/class/cs224s/reports/Anthony_Perez.pdf">paper</a></td>
   </tr>
   
 </table>
