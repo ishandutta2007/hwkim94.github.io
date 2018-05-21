@@ -43,9 +43,9 @@ categories: [deeplearning, audio, style-transfer]
 ![style transfer](https://files.slack.com/files-pri/T1J7SCHU7-FAT0DAM0C/style.png?pub_secret=1aedd0ec5f)
 - 각 layer들의 $$L_c$$ 와 $$L_s$$를 계산한 후 각각 합해서 loss로 사용
     - $$L_c$$ = content loss = $$\mid \mid F_{c}^{out} - F_{c} \mid \mid^{2}$$
-    - $$L_s$$ = style loss = $$\mid \mid (F_{s}^{out})^T F_{s}^{opt} - (F_{s})^T F_{s} \mid \mid^{2}$$
+    - $$L_s$$ = style loss = $$\mid \mid (F_{s}^{out})^T F_{s}^{out} - (F_{s})^T F_{s} \mid \mid^{2}$$
     - $$F^{out}$$ = NN에 noise를 넣었을 때, 해당 layer에서의 출력값
-    - $$F^c$$ = NN에 content image를 넣었을 때, 해당 layer에서의 출력값
+    - $$F_c$$ = NN에 content image를 넣었을 때, 해당 layer에서의 출력값
     - $$F_s$$ = NN에 style image를 넣었을 때, 해당 layer에서의 출력값
 
 - content loss
