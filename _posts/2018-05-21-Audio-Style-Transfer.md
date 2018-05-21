@@ -41,7 +41,7 @@ categories: [deeplearning, audio, style-transfer, alexnet]
     - $$X_r$$ = reconstructed spectrogram
     - $$L_c$$ = content loss = loss between output of model and content
     - $$L_s$$ = style loss = normalized Eucildean norm between Gram matrix of filter activation
-    - $$L_e & L_t$$ = deviation in the temporal and frequency energy envelopes respectively from the style audio
+    - $$L_e, L_t$$ = deviation in the temporal and frequency energy envelopes respectively from the style audio
     - Gram matrix는 target audio style의 시간적 역동을 포함하지 않으므로 energy term 필요
 
 - 3x3 filter의 AlexNet 사용
