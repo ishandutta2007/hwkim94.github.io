@@ -37,8 +37,8 @@ categories: [deeplearning, audio, style-transfer, alexnet]
 
 # 3.1 Audio Style Transfer
 
-- $$X_reconstruct$$ = $$argmin_X L_total$$ = $$argmin_X \alpha L_c (x, x_{c}) + \alpha L_s (x, x_{s}) + \alpha L_e (x_{e}, e_{s}) + \alpha L_t (x_{t}, t_{s})$$
-    - $$X_reconstruct$$ = reconstructed spectrogram
+- $$X_{r}$$ = $$argmin_X L_{tot}$$ = $$argmin_X \alpha L_c (x, x_{c}) + \alpha L_s (x, x_{s}) + \alpha L_e (x_{e}, e_{s}) + \alpha L_t (x_{t}, t_{s})$$
+    - $$X_r$$ = reconstructed spectrogram
     - $$L_c$$ = content loss = loss between output of model and content
     - $$L_s$$ = style loss = normalized Eucildean norm between Gram matrix of filter activation
     - $$L_e & L_t$$ = deviation in the temporal and frequency energy envelopes respectively from the style audio
