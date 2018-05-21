@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Audio Style Transfer[2]Style Transfer for Prosodic Speech(2017) - Review"
+title:  "Audio Style Transfer[2] Style Transfer for Prosodic Speech(2017) - Review"
 date:   2018-05-22 01:45:00 +0900
 categories: [deeplearning, audio, style-transfer]
 ---
