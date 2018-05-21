@@ -258,6 +258,13 @@
     <td><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">paper</a></td>
   </tr>
   
+  <tr>
+    <td>35</td>
+    <td>Audio Style Transfer[1] Neural Style Transfer for Audio Spectrograms(2018)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/alexnet/2018/05/21/Audio-Style-Transfer1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1801.01589">paper</a></td>
+  </tr>
+  
 </table>
 
 
