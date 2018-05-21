@@ -39,8 +39,8 @@ categories: [deeplearning, audio, style-transfer, alexnet]
 
 - $$X_{r}$$ = $$argmin_X L_{tot}$$ = $$argmin_X(\alpha L_c (x, x_{c}) + \beta L_s (x, x_{s}) + \gamma L_e (x_{e}, e_{s}) + \delta L_t (x_{t}, t_{s}))$$
     - $$X_r$$ = reconstructed spectrogram
-    - $$L_c$$ = content loss = loss between output of model and content
-    - $$L_s$$ = style loss = normalized Eucildean norm between Gram matrix of filter activation
+    - $$L_c$$ = content loss = loss between filters of model and of content
+    - $$L_s$$ = style loss = normalized Eucildean norm between Gram matrix of filter activations
     - $$L_e, L_t$$ = deviation in the temporal and frequency energy envelopes respectively from the style audio
     - Gram matrix는 target audio style의 시간적 역동을 포함하지 않으므로 energy term 필요
 
