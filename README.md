@@ -279,6 +279,13 @@
     <td><a href="https://arxiv.org/abs/1803.06841">paper</a></td>
   </tr>
   
+  <tr>
+    <td>39</td>
+    <td>Audio Style Transfer[4] AUDIO STYLE TRANSFER(2017)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/2018/05/22/Audio-Style-Transfer4.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1710.11385">paper</a></td>
+  </tr>
+  
 </table>
 
 
