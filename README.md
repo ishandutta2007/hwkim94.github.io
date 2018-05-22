@@ -272,6 +272,13 @@
     <td><a href="http://web.stanford.edu/class/cs224s/reports/Anthony_Perez.pdf">paper</a></td>
   </tr>
   
+  <tr>
+    <td>38</td>
+    <td>Audio Style Transfer[3] Music Style Transfer: A Position Paper(2018)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/2018/05/22/Audio-Style-Transfer3.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1803.06841">paper</a></td>
+  </tr>
+  
 </table>
 
 
