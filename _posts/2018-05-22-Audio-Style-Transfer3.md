@@ -52,7 +52,7 @@ categories: [deeplearning, audio, style-transfer]
 # 3.4 Representation, Content, and Style
 ![table](https://files.slack.com/files-pri/T1J7SCHU7-FATGW29KN/table.png?pub_secret=538361107e)
 - music content
-    - abstraction 정보()
+    - abstraction 정보 
     - lower level부터 higher level까지의 정보를 추출
 
 - music style
@@ -65,13 +65,13 @@ categories: [deeplearning, audio, style-transfer]
 
 ## 4. Music Style Transfer: A Precise Definition and Related Work 
 # 4.1 Timbre(음색) Style Transfer
-- sound representation에 적용되어 timbre information만 바꾸고, performance control의 content는 유지하는 것
+- sound representation에 적용되어 timbre 만 바꾸고, performance control의 content는 유지하는 것
     - 예를 들어, 트럼펫의 소리만 플룻의 소리로 바꾸는 것
     - sound synthesis와 유사
 
 # 4.2 Performance Style Transfer
-- performance control representation에 적용되어 score content는 유지하면서 control 정보를 바꾸는 것
-    - 예를 들어, 'Summertime'에 대한 Louis Armstrongs의 interpretation을 Miles Davis의 것으로 바꾸는 것
+- performance control representation에 적용되어 score content는 유지하고 control 정보를 바꾸는 것
+    - 예를 들어, 'Summertime'에 대한 Louis Armstrongs의 interpretation을 Miles Davis 것으로 바꾸는 것
     - expressive performance rendering과 유사
 
 # 4.3 Composition Style Transfer
