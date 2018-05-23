@@ -2,7 +2,7 @@
 layout: post
 title:  "Distributed DL[2] Large Scale Distributed Deep Networks(2012) - Review"
 date:   2018-05-16 15:30:00 +0900
-categories: [distributed-computing, deeplearning]
+categories: [distributed-computing, deeplearning, paperreview]
 ---
 
 ## 1. Abstract
