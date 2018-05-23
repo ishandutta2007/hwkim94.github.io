@@ -2,7 +2,7 @@
 layout: post
 title:  "Audio Style Transfer[3] Music Style Transfer: A Position Paper(2018) - Review"
 date:   2018-05-22 13:45:00 +0900
-categories: [deeplearning, audio, style-transfer]
+categories: [deeplearning, audio, style-transfer, paperreview]
 ---
 
 ## 1. Abstract
