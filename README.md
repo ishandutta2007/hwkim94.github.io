@@ -226,64 +226,71 @@
   <tr>
     <td>31</td>
     <td>Spark[1] Spark: Cluster Computing with Working Sets(2010)</td>
-    <td><a href="https://hwkim94.github.io/distributed-computing/spark/rdd/2018/05/15/Spark1.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/distributed-computing/spark/rdd/paperreview/2018/05/15/Spark1.html">review</a></td>
     <td><a href="http://static.usenix.org/legacy/events/hotcloud10/tech/full_papers/Zaharia.pdf">paper</a></td>
   </tr>
   
   <tr>
     <td>32</td>
     <td>Spark[2] Resilient Distributed Datasets: A Fault Tolerant Abstraction for In Memory Cluster Computing(2012)</td>
-    <td><a href="https://hwkim94.github.io/distributed-computing/spark/rdd/2018/05/15/Spark2.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/distributed-computing/spark/rdd/paperreview/2018/05/15/Spark2.html">review</a></td>
     <td><a href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf">paper</a></td>
   </tr>
   
   <tr>
     <td>33</td>
     <td>Distributed DL[1] Parallel and Distributed Deep Learning(2016)</td>
-    <td><a href="https://hwkim94.github.io/distributed-computing/deeplearning/2018/05/15/Distributed-DL1.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/distributed-computing/deeplearning/paperreview/2018/05/15/Distributed-DL1.html">review</a></td>
     <td><a href="https://web.stanford.edu/~rezab/classes/cme323/S16/projects_reports/hedge_usmani.pdf">paper</a></td>
   </tr>
   
   <tr>
     <td>34</td>
     <td>Distributed DL[2] Large Scale Distributed Deep Networks(2012)</td>
-    <td><a href="https://hwkim94.github.io/distributed-computing/deeplearning/2018/05/16/Distributed-DL2.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/distributed-computing/deeplearning/paperreview/2018/05/16/Distributed-DL2.html">review</a></td>
     <td><a href="http://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf">paper</a></td>
   </tr>
   
   <tr>
     <td>35</td>
     <td>AlexNet[1] ImageNet Classification with Deep Convolutional Neural Networks(2012)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/cnn/alexnet/2018/05/20/AlexNet1.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/alexnet/paperreview/2018/05/20/AlexNet1.html">review</a></td>
     <td><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">paper</a></td>
   </tr>
   
   <tr>
     <td>36</td>
     <td>Audio Style Transfer[1] Neural Style Transfer for Audio Spectrograms(2018)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/alexnet/2018/05/21/Audio-Style-Transfer1.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/paperreview/alexnet/2018/05/21/Audio-Style-Transfer1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1801.01589">paper</a></td>
   </tr>
   
   <tr>
     <td>37</td>
     <td>Audio Style Transfer[2] Style Transfer for Prosodic Speech(2017)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/2018/05/21/Audio-Style-Transfer2.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/paperreview/2018/05/21/Audio-Style-Transfer2.html">review</a></td>
     <td><a href="http://web.stanford.edu/class/cs224s/reports/Anthony_Perez.pdf">paper</a></td>
   </tr>
   
   <tr>
     <td>38</td>
     <td>Audio Style Transfer[3] Music Style Transfer: A Position Paper(2018)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/2018/05/22/Audio-Style-Transfer3.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/paperreview/2018/05/22/Audio-Style-Transfer3.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1803.06841">paper</a></td>
   </tr>
   
   <tr>
     <td>39</td>
     <td>Audio Style Transfer[4] AUDIO STYLE TRANSFER(2017)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/2018/05/22/Audio-Style-Transfer4.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/paperreview/2018/05/22/Audio-Style-Transfer4.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1710.11385">paper</a></td>
+  </tr>
+  
+  <tr>
+    <td>39</td>
+    <td>WaveNet[1] WaveNet: A Generative Model for Raw Audio(2016)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/wavenet/paperreview/2018/05/23/WaveNet1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1609.03499">paper</a></td>
   </tr>
   
 </table>
