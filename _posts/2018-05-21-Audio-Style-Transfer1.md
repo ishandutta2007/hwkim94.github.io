@@ -2,7 +2,7 @@
 layout: post
 title:  "Audio Style Transfer[1] Neural Style Transfer for Audio Spectrograms(2018) - Review"
 date:   2018-05-21 15:30:00 +0900
-categories: [deeplearning, audio, style-transfer, alexnet]
+categories: [deeplearning, audio, style-transfer, alexnet, paperreview]
 ---
 
 ## 1. Abstract
