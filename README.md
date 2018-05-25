@@ -287,10 +287,17 @@
   </tr>
   
   <tr>
-    <td>39</td>
+    <td>40</td>
     <td>WaveNet[1] WaveNet: A Generative Model for Raw Audio(2016)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/wavenet/paperreview/2018/05/23/WaveNet1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1609.03499">paper</a></td>
+  </tr>
+  
+  <tr>
+    <td>41</td>
+    <td>Audio Style Transfer[5] A Universal Music Translation Network(2018)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/wavenet/autoencoder/paperreview/2018/05/25/Audio-Style-Transfer.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1805.07848">paper</a></td>
   </tr>
   
 </table>
