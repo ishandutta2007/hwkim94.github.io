@@ -296,7 +296,7 @@
   <tr>
     <td>41</td>
     <td>Audio Style Transfer[5] A Universal Music Translation Network(2018)</td>
-    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/wavenet/autoencoder/paperreview/2018/05/25/Audio-Style-Transfer.html">review</a></td>
+    <td><a href="https://hwkim94.github.io/deeplearning/audio/style-transfer/wavenet/autoencoder/paperreview/2018/05/25/Audio-Style-Transfer5.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1805.07848">paper</a></td>
   </tr>
   
