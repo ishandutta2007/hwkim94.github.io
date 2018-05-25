@@ -2,7 +2,7 @@
 layout: post
 title:  "Audio Style Transfer[5] A Universal Music Translation Network(2018) - Review"
 date:   2018-05-25 14:30:00 +0900
-categories: [deeplearning, audio, style-transfer, paperreview]
+categories: [deeplearning, audio, style-transfer, wavenet, autoencoder, paperreview]
 ---
 
 ## 1. Abstract 
