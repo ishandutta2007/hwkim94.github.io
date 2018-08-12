@@ -60,7 +60,7 @@ categories: [deeplearning, attention, nlp, transformer, paperreview]
     - 각각의 layer는 2개의 sub-layer로 동일하게 구성
     - sub-layer에 residual network 적용
 
-- $$encoding vector$$ = $$SL2(SL1(x))$$
+- encoding vector = $$SL2(SL1(x))$$
     - $$x$$ = input 
     - $$SL1(x)$$ = $$LayerNorm(x+SubLayer1(x))$$
     - $$SL2(x)$$ = $$LayerNorm(x+SubLayer2(x))$$
@@ -200,7 +200,7 @@ categories: [deeplearning, attention, nlp, transformer, paperreview]
 ![result2](https://files.slack.com/files-pri/T1J7SCHU7-FC6UD2RN0/result2.png?pub_secret=545ece18c4)
 
 # 7.3 English Constituency Parsing
-![result3](https://files.slack.com/files-pri/T1J7SCHU7-FC6UD34LC/result3.png?pub_secret=9008fa6116)
+![result3](https://files.slack.com/files-pri/T1J7SCHU7-FC6UGESSY/result33.png?pub_secret=ed68fd9359)
 
 -----
 
