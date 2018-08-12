@@ -73,7 +73,7 @@ categories: [deeplearning, attention, nlp, transformer, paperreview]
     - sub-layer에 residual network 적용
     - masking된 layer를 사용하여 여태까지의 output만으로 예측할 수 있게 함
 
-- $$encoding vector$$ = $$SL2(SL1(SL0(x)))$$
+- encoding vector = $$SL2(SL1(SL0(x)))$$
     - $$SL0$$ = $$LayerNorm(x+SubLayer0(x))$$
     - $$SL1$$ = $$LayerNorm(x+SubLayer1(x))$$
     - $$SL2$$ = $$LayerNorm(x+SubLayer2(x))$$
@@ -85,7 +85,7 @@ categories: [deeplearning, attention, nlp, transformer, paperreview]
 ### 4.2.1 Scaled Dot-Product Attention
 ![Scaled Dot-Product Attention](https://files.slack.com/files-pri/T1J7SCHU7-FC65FCCH5/1.png?pub_secret=6dc8e76459)
 
-- $$Attention(Q,K,V)$$ = $$softmax(\frac{QK^T}{\sqrt{d_k})V$$
+- $$Attention(Q,K,V)$$ = $$softmax(\frac{QK^T}{\sqrt{d_k}})V$$
     - $$Q$$ : query matrix
     - $$K$$ : key matrix with dimension $$d_k$$
     - $$V$$ : value matrix with dimension $$d_v$$
@@ -104,10 +104,10 @@ categories: [deeplearning, attention, nlp, transformer, paperreview]
 
 - $$MultiHeadAttention$$ = $$Concat(head_1, head_2, \cdots, head_h)W^O$$
     - $$head_i$$ = $$Attention(QW_i^Q, KW_i^K, VW_i^V)$$
-    - $$W_i^Q \in R^{d_model \times d_k}$$
-    - $$W_i^K \in R^{d_model \times d_k}$$
-    - $$W_i^V \in R^{d_model \times d_v}$$
-    - $$W_i^O \in R^{hd_v \times d_model}$$
+    - $$W_i^Q \in R^{d_model \times d_k}$$ .
+    - $$W_i^K \in R^{d_model \times d_k}$$ .
+    - $$W_i^V \in R^{d_model \times d_v}$$ .
+    - $$W_i^O \in R^{hd_v \times d_model}$$ .
 
 - linear projection and concatenation
     - $$Q$$, $$K$$, $$V$$를 그냥 사용하는 것이 아닌 각각 linear projection을 $$h$$번 한 후에 concatenate하여 사용
@@ -172,6 +172,7 @@ categories: [deeplearning, attention, nlp, transformer, paperreview]
 # 6.1 Training Data and Batching
 - WMT dataset 사용
 - 25000 token 정도가 한 batch에 들어가도록 batching
+
 # 6.2 Hardware and Schedule
 - base model
     - 100000 step
@@ -183,7 +184,7 @@ categories: [deeplearning, attention, nlp, transformer, paperreview]
 # 6.3 Optimizer
 - Adam Optimizer
 - Learning rate
-    - $$d_{model}^{-0.5} \times min(step_num^{-0.5}, step_num \times warmup_step^{-1.5})$$
+    - lr = $$d_{model}^{-0.5} \times min(step_num^{-0.5}, step_num \times warmup_step^{-1.5})$$
 
 # 6.4 Regularization
 - Residual dropout
