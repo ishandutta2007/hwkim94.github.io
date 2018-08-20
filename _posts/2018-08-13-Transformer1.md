@@ -108,6 +108,7 @@ categories: [deeplearning, attention, nlp, transformer, paperreview]
     - $$W_i^K \in R^{d_{model} \times d_k}$$ .
     - $$W_i^V \in R^{d_{model} \times d_v}$$ .
     - $$W_i^O \in R^{hd_v \times d_{model}}$$ .
+    - $$d_k = d_v = d_{model}/h$$
 
 - linear projection and concatenation
     - $$Q$$, $$K$$, $$V$$를 그냥 사용하는 것이 아닌 각각 linear projection을 $$h$$번 한 후에 concatenate하여 사용
