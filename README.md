@@ -313,6 +313,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/r-cnn/paperreview/2018/09/21/R-CNN.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1311.2524">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>44</td>
+    <td>Fast R-CNN[1] Fast R CNN(2015)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/r-cnn/paperreview/2018/09/22/Fast-R-CNN1.html">review</a></td>
+    <td><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf">paper</a></td>
+  </tr>
 
   
 </table>
