@@ -327,6 +327,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/r-cnn/paperreview/2018/09/22/Fater-R-CNN1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1506.01497">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>46</td>
+    <td>YOLO[1] You Only Look Once: Unified, Real Time Object Detection(2015)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/yolo/paperreview/2018/09/22/YOLO1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1506.02640">paper</a></td>
+  </tr>
 
   
 </table>
