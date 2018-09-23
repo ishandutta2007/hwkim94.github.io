@@ -334,6 +334,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/yolo/paperreview/2018/09/22/YOLO1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1506.02640">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>47</td>
+    <td>YOLO[2] YOLO9000: Better, Faster, Stronger(2016)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/yolo/paperreview/2018/09/23/YOLO2.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1612.08242">paper</a></td>
+  </tr>
 
   
 </table>
