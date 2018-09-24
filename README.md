@@ -348,6 +348,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/yolo/paperreview/2018/09/23/YOLO3.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1804.02767">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>49</td>
+    <td>RetinaNet[1] Focal Loss for Dense Object Detection(2017)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/retinanet/focal-loss/paperreview/2018/09/24/retinaNet1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1708.02002">paper</a></td>
+  </tr>
 
   
 </table>
