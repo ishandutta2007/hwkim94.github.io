@@ -346,7 +346,7 @@
     <td>48</td>
     <td>YOLO[3] YOLOv3: An Incremental Improvement(2018)</td>
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/yolo/paperreview/2018/09/23/YOLO3.html">review</a></td>
-    <td><a href="https://pjreddie.com/media/files/papers/YOLOv3.pdf">paper</a></td>
+    <td><a href="https://arxiv.org/abs/1804.02767">paper</a></td>
   </tr>
 
   
