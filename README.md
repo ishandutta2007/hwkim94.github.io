@@ -355,6 +355,20 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/retinanet/focal-loss/paperreview/2018/09/24/retinaNet1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1708.02002">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>50</td>
+    <td>SSD[1] SSD: Single Shot MultiBox Detector(2015)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/ssd/paperreview/2018/09/27/SSD1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1512.02325">paper</a></td>
+  </tr>
+  
+  <tr>
+    <td>51</td>
+    <td>DSSD[1] DSSD: Deconvolutional Single Shot Detector(2017)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/dssd/paperreview/2018/09/28/DSSD1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1701.06659">paper</a></td>
+  </tr>
 
   
 </table>
