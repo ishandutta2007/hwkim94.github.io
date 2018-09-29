@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Light-Head R-CNN[1] Light Head R CNN: In Defense of Two Stage Object Detector(2017) - Review"
-date:   2018-09-23 01:30:00 +0900
+title:  "Light-Head R-CNN[1] Light-Head R-CNN: In Defense of Two Stage Object Detector(2017) - Review"
+date:   2018-09-30 04:00:00 +0900
 categories: [deeplearning, cnn, image-detection, r-cnn, paperreview]
 ---
 
