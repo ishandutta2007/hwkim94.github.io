@@ -369,6 +369,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/dssd/paperreview/2018/09/28/DSSD1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1701.06659">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>52</td>
+    <td>Light-Head R-CNN[1] Light-Head R-CNN: In Defense of Two Stage Object Detector(2017)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/r-cnn/paperreview/2018/09/22/Light-Head-R-CNN1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1711.07264">paper</a></td>
+  </tr>
 
   
 </table>
