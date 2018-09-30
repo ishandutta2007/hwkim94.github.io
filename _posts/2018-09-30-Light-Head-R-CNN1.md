@@ -68,7 +68,7 @@ categories: [deeplearning, cnn, image-detection, r-cnn, paperreview]
     - 성능을 올려주며, 연산량을 절감하여 속도도 빨라짐
 
 - RoI warping
-    - RSRoI pooling
+    - PSRoI pooling
     - RoI pooling
 
 # 4.2 Light-Head R-CNN for Object Detection
