@@ -383,6 +383,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/r-fcn/paperreview/2018/09/30/R-FCN1.html">review</a></td>
     <td><a href="https://arxiv.org/abs/1605.06409">paper</a></td>
   </tr>
+  
+  <tr>
+    <td>54</td>
+    <td>R-FCN[2] R-FCN++: Towards Accurate Region Based Fully Convolutional Networks for Object Detection(2018)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/r-fcn/paperreview/2018/09/30/R-FCN2.html">review</a></td>
+    <td><a href="http://www.skicyyu.org/Paper/RFCN_plus_plus.pdf">paper</a></td>
+  </tr>
 
   
 </table>
