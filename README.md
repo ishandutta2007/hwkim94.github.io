@@ -390,7 +390,13 @@
     <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/r-fcn/paperreview/2018/09/30/R-FCN2.html">review</a></td>
     <td><a href="http://www.skicyyu.org/Paper/RFCN_plus_plus.pdf">paper</a></td>
   </tr>
-
+  
+  <tr>
+    <td>55</td>
+    <td>FPN[1] Feature Pyramid Networks for Object Detection(2016)</td>
+    <td><a href="https://hwkim94.github.io/deeplearning/cnn/image-detection/fpn/paperreview/2018/10/01/FPN1.html">review</a></td>
+    <td><a href="https://arxiv.org/abs/1612.03144">paper</a></td>
+  </tr>
   
 </table>
 
