@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Video Style Transfer[4] Artistic style transfer for videos(2016) - Review"
+title:  "Video Style Transfer[1] Artistic style transfer for videos(2016) - Review"
 date:   2018-11-13 11:10:00 +0900
 categories: [deeplearning, video, style-transfer, paperreview]
 ---
@@ -46,7 +46,7 @@ categories: [deeplearning, video, style-transfer, paperreview]
 ## 4. Style Transfer in still images
 - content loss
     - CNN을 통해 output의 feature map이 content image와 비슷해지도록 함
-    - $$L_{content}$$ = $$\sum_{l \in #layers} \frac{1}{N_l M_l} \sum_{i,j} (F_{ij}^l - P_{ij}^l)^2$$
+    - $$L_{content}$$ = $$\sum_{l \in num(layers)} \frac{1}{N_l M_l} \sum_{i,j} (F_{ij}^l - P_{ij}^l)^2$$
     - $$N_l, M_l$$ = size of $$l$$-th layer feature map
     - $$F_{ij}^l$$ = original image를 layer에 통과시켰을 때, output의 각 pixel값
     - $$P_{ij}^l$$ = generated image를 layer에 통과시켰을 때, output의 각 pixel값
@@ -54,7 +54,7 @@ categories: [deeplearning, video, style-transfer, paperreview]
 
 - style loss
     - output과 style image의 correlation을 통해 style이 비슷하도록 encoding
-    - $$L_{style}$$ = $$\sum_{l \in #layers} \frac{1}{N_l^2 M_l^2} \sum_{i,j} (G_{ij}^l - A_{ij}^l)^2$$
+    - $$L_{style}$$ = $$\sum_{l \in num(layers)} \frac{1}{N_l^2 M_l^2} \sum_{i,j} (G_{ij}^l - A_{ij}^l)^2$$
     - $$N_l, M_l$$ = size of $$l$$-th layer feature map
     - $$A_{ij}^l$$ = $$\sum_{k=1}^{M_l} S_{ik}^l S_{jk}^l$$ = style image의 Gram Matrix
     - $$G_{ij}^l$$ = $$\sum_{k=1}^{M_l} F_{ik}^l F_{jk}^l$$ = gernerated image의 Gram Matrix
@@ -101,7 +101,7 @@ categories: [deeplearning, video, style-transfer, paperreview]
     - $$D$$ = $$W \times H \times C$$
 
 - short-term loss
-    - $$L_{short-term}^i$$ = $$\alpha L_{content}^i + \beta L_{style}^i + \gamma L_{temporal}_{i-1}^i$$
+    - $$L_{short-term}^i$$ = $$\alpha L_{content}^i + \beta L_{style}^i + \gamma {L_{temporal}_{i-1}}^i$$
     - $${L_{temporal}}_{i-1}^i$$ = $$L_{temporal}(x^i, \omega_{i-1}^{i} (x^{i-1}), c^{(i-1,i)})$$
     - $$c^{(i-1,i)}$$= disoclussion 혹은 motion boundary가 있는 곳은 0, 아니면 1
     - $$\omega_{i-1}^{i}$$ = optical flow field from $$(i-1)$$-th frame to $$i$$-th frame
@@ -111,7 +111,7 @@ categories: [deeplearning, video, style-transfer, paperreview]
     - previous frame만 확인하는 것이 아니라, 더 멀리 있는 frame도 확인할 수 있는 long-term loss 적용
 
 - long-term loss
-    - $$L_{long-term}^i$$ = $$\alpha L_{content}^i + \beta L_{style}^i + \gamma \sum_{j \in J} L_{temporal}_{i-j}^i$$
+    - $$L_{long-term}^i$$ = $$\alpha L_{content}^i + \beta L_{style}^i + \gamma \sum_{j \in J} {L_{temporal}}_{i-j}^i$$
     - $${L_{temporal}}_{i-j}^i$$ = $$L_{temporal}(x^i, \omega_{i-j}^{i} (x^{i-j}), c_{long}^{(i-j,i)})$$
     - $$J$$ = $$i$$-th frame이 고려해야하는 frame의 index set
     - $$c_{long}^{(i-j,i)}$$ = $$max(c^(i-j, i) - \sum_k c^{(i-k), i}, 0)$$
