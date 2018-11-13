@@ -101,7 +101,7 @@ categories: [deeplearning, video, style-transfer, paperreview]
     - $$D$$ = $$W \times H \times C$$
 
 - short-term loss
-    - $$L_{short-term}^i$$ = $$\alpha L_{content}^i + \beta L_{style}^i + \gamma {L_{temporal}_{i-1}}^i$$
+    - $$L_{short-term}^i$$ = $$\alpha L_{content}^i + \beta L_{style}^i + \gamma {L_{temporal}}_{i-1}^i$$
     - $${L_{temporal}}_{i-1}^i$$ = $$L_{temporal}(x^i, \omega_{i-1}^{i} (x^{i-1}), c^{(i-1,i)})$$
     - $$c^{(i-1,i)}$$= disoclussion 혹은 motion boundary가 있는 곳은 0, 아니면 1
     - $$\omega_{i-1}^{i}$$ = optical flow field from $$(i-1)$$-th frame to $$i$$-th frame
