@@ -61,7 +61,7 @@ categories: [deeplearning, video, style-transfer, paperreview]
     - 즉, 각 layer마다 content image와 generated image의 style이 얼마나 차이나는지를 loss로 사용
 
 - total loss
-    - &&L_total&& = &&\alpha L_{content} + \beta L_{style}&&
+    - $$L_total$$ = $$\alpha L_{content} + \beta L_{style}$$
 
 -----
 
@@ -125,7 +125,7 @@ categories: [deeplearning, video, style-transfer, paperreview]
 - boundary가 다른 부분에 비해 학습이 잘 되지 않는다는 문제가 존재
     - camera 혹은 물체가 움직이면서 image boundary가 화면의 중심으로 오게 될 경우, 낮은 quality의 output을 보여줌
     - image sequence를 다양한 방향과, multiple-pass로 학습을 시키는 방식으로 해결
-    - multiple-pass란, 여러 번 반복해서 학습시키는 것
+    - multiple-pass란, 이전 pass에서 학습된 것을 사용하여 여러 번 반복해서 학습시키는 것
     
 - multiple-pass algorithm
     - 우선 각 frame을 독립적으로 학습시킨 후, non-disoccluded한 image끼리 섞어서 optimization
