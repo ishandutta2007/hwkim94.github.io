@@ -19,7 +19,7 @@ categories: [deeplearning, video, style-transfer, paperreview]
 - 일반적인 style transfer를 video의 frame에 각각 적용하면 frame별로 다르게 학습되어 discontinuous하기 때문에 stable하지 않다는 문제 발생
 
 - white noise feature map
-    - white noise로 부터 generated image를 생성
+    - white noise로 부터 generated image를 생성하기 때문에 한 frame씩 학습시키게 된다면 모든 frame이 다르게 학습됨
 
 - temporal consistency
     - 자연스러운(smooth) 장면 전환(frame transition)을 위해서 두 frame의 deviation(편차)에 penalty를 적용
@@ -67,6 +67,7 @@ categories: [deeplearning, video, style-transfer, paperreview]
 
 ## 5. Style Transfer in videos
 # 5.1 Short-term consistency by initialization
+![optical flow](https://files.slack.com/files-pri/T1J7SCHU7-FE6EPQZDG/optical_flow.png?pub_secret=d17dd50c34)
 - 만약 연속적인 frame이 각각 다른 Gaussian noise로 부터 initialization될 경우, 두 frame이 서로 다른 local minima로 수렴하여 flickering 문제(같은 부분에 다른 style이 적용되는 문제)가 발생
 
 - $$i$$-th generated image를 $$(i+1)$$-th frame의 initialization로 사용
@@ -74,17 +75,18 @@ categories: [deeplearning, video, style-transfer, paperreview]
     - 하지만, motion이 있는 경우에는 움직이는 부분에 initialization이 부정확하게 되는 문제가 발생
 
 - optical flow 적용
+    - optical flow란, previous frame과 current frame을 이용하여 각 부분의 motion vector, 즉, 얼마나 이동했는지를 찾는 것
     - original image의 frame에서 측정된 optical flow field를 $$i$$-th generated image에 적용하여 $$(i+1)$$-th frame의 initialization로 사용
-    - $$x^(i+1)$$ = $$\omega_i^{i+1} (x^i)$$
-    - $$\omega$$ = optical flow field
+    - $$x_{init}^{(i+1)}$$ = $$\omega_i^{i+1} (x^i)$$
+    - $$\omega$$ = optical flow field from original $$(i+1)$$ frame to original $$i$$ frame
    
 # 5.2 Temporal consistency loss
 - 인접한 장면의 일관성을 위해서 연속된 두 frame에 penalty를 부여
     - 이를 위해서는 물체가 사라진건지 아닌지에 대한 것과 motion에 대한 detection이 필요
-
-- disocclusion object(가려지지 않은 object,즉, 화면에 지속적으로 존재하는 object)
+    
+- disocclusion object(가려졌다가 다시 등장하는 물체, 혹은, 새롭게 등장하는 물체)
     - object disocclusion을 판단 위하여 forward/backward 방형의 optical flow를 확인
-    - disocclusion이 발생하지 않는 area는 forward/backward 방형의 optical flow가 거의 반대이기 때문에, disocclusion인 부분은 아래의 부등식이 성립
+    - disocclusion이 발생하지 않는 area(계속 image에 존재하는 물체)는 forward/backward 방형의 optical flow가 거의 반대이기 때문에, disocclusion인 부분은 아래의 부등식이 성립
     - $$\mid \tilde{w} + \hat{w} {\mid}^2 $$ > $$0.01 ( \mid \tilde{w} {\mid}^2 + \mid \hat{w} {\mid}^2) + 0.5$$
     - $$w$$ = $$(u,v)$$ = forward 방향의 optical flow
     - $$\hat{w}$$ = $$(\hat{u}, \hat{v})$$ = backward 방향의 optical flow
@@ -121,13 +123,15 @@ categories: [deeplearning, video, style-transfer, paperreview]
 # 5.4 Multi-pass algorithm
 ![fig2](https://files.slack.com/files-pri/T1J7SCHU7-FE20LQ1L2/fig2.png?pub_secret=6f04b8f0ea)
 - boundary가 다른 부분에 비해 학습이 잘 되지 않는다는 문제가 존재
-    - camera가 움직이면서 image boundary가 화면의 중심으로 오게 될 경우, 낮은 quality의 output을 보여줌 
+    - camera 혹은 물체가 움직이면서 image boundary가 화면의 중심으로 오게 될 경우, 낮은 quality의 output을 보여줌
     - image sequence를 다양한 방향과, multiple-pass로 학습을 시키는 방식으로 해결
-
+    - multiple-pass란, 여러 번 반복해서 학습시키는 것
+    
 - multiple-pass algorithm
     - 우선 각 frame을 독립적으로 학습시킨 후, non-disoccluded한 image끼리 섞어서 optimization
     - 이때, optimization은 forward/backward 방향 모두에 대해서 학습
     - ![image](https://files.slack.com/files-pri/T1J7SCHU7-FE3CM2S4W/1.png?pub_secret=076b767ddf)
+    - $${x}'$$ = initialization of frame
 
 -----
 
@@ -184,3 +188,4 @@ categories: [deeplearning, video, style-transfer, paperreview]
 - [https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
 - [https://youtu.be/vQk_Sfl7kSc](https://youtu.be/vQk_Sfl7kSc)
 - [https://en.wikipedia.org/wiki/Optical_flow](https://en.wikipedia.org/wiki/Optical_flow)
+- [https://www.commonvisionblox.com/en/products/series/cvb-optical-flow/](https://www.commonvisionblox.com/en/products/series/cvb-optical-flow/)
